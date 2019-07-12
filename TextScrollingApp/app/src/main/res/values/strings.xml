@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TextScrollingApp</string>
+    <string name="article_title">Self Introduction</string>
+    <string name="sub_title">About My Family</string>
+    <string name="main_article">
+        www.mysirg.com This is my first and very important introduction
+    \n I am Saddam Ahmed Student of <b>B\.tech 3rd year</b> of <b>Meerut </b>
+    \n <b>Institute of Technology</b> we are 3 brothers and 1 sister
+    \n we are all living happily and we don\'t need anything extra resources for
+    \n being happy\. My father is an Electrician and name is <b>Daulat Ahmed</b>
+    \n My mother is a house wife\. My partent are very good person the always keep
+    \n supporting us to do any work related to our carrer and which is important to
+    \n us for making our future better\. They works very hard to provide us all the facilities
+    \n to us so that we can live with very good environment
+
+    \n\n\n
+        This is my first and very important introduction
+        \n I am Saddam Ahmed Student of <b>B.tech 3rd year</b> of <b>Meerut </b>
+        \n <b>Institute of Technology</b> we are 3 brothers and \1 sister
+        \n we are all living happily and we don\'t need anything extra resources for
+        \n being happy. My father is an Electrician and name is <b>Daulat Ahmed</b>
+        \n My mother is a house wife. My partent are very good person the always keep
+        \n supporting us to do any work related to our carrer and which is important to
+        \n us for making our future better. They works very hard to provide us all the facilities
+        \n to us so that we can live with very good environment
+    \n\n
+        This is my first and very important introduction
+        \n I am Saddam Ahmed Student of <b>B.tech 3rd year</b> of <b>Meerut </b>
+        \n <b>Institute of Technology</b> we are 3 brothers and \1 sister
+        \n we are all living happily and we don\'t need anything extra resources for
+        \n being happy. My father is an Electrician and name is <b>Daulat Ahmed</b>
+        \n My mother is a house wife. My partent are very good person the always keep
+        \n supporting us to do any work related to our carrer and which is important to
+        \n us for making our future better. They works very hard to provide us all the facilities
+        \n to us so that we can live with very good environment</string>
+</resources>

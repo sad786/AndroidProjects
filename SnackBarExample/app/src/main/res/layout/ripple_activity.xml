@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_margin="20dp"
+              >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/boundRip"
+        android:text="Bounded Ripple"
+        android:onClick="dummyClick"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:background="?android:attr/selectableItemBackground"
+    />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/unboundRip"
+        android:text="Without Bound Ripple"
+        android:textColor="@color/black"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="dummyClick"
+        android:textSize="20dp"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/customText"
+        android:text="Custom Ripple with border"
+        android:background="@drawable/custome"
+        android:textColor="@color/black"
+        android:onClick="dummyClick"
+        android:textSize="20dp"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/customUnText"
+        android:text="Custom Ripple Without Border"
+        android:background="@drawable/custom_borderless"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:onClick="dummyClick"/>
+
+
+</LinearLayout>

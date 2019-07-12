@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/card_view">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/relative_layout">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/imageView"/>
+        <TextView
+                android:id="@+id/textTitle"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_alignBottom="@id/imageView"
+                android:text="Title"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/newsTitle"
+            android:padding="8dp"
+            android:layout_below="@id/imageView"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:text="News"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/subTitle"
+            android:padding="8dp"
+            android:text="Sub Title"
+            android:layout_below="@id/newsTitle"
+            style="@style/TextAppearance.AppCompat.Large"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

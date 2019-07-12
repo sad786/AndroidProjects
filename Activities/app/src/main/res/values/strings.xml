@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="text_one">
+        Create an app with three Button elements labeled Text One
+        Text Two, and Text Three When any of these Button elements are clicked
+        launch a second ActivityThat second Activity should contain a ScrollView
+        that displays one of three text passages (you can include your choice of passages)
+        Use an Intent to launch the second Activity with extras to indicate which of the three
+        passages to display
+    </string>
+
+    <string name="text_two">
+        The name India is derived from Indus
+        which originates from the Old Persian word Hindush
+        equivalent to the Sanskrit word Sindhu
+        which was the historical local appellation for the Indus River
+        The ancient Greeks referred to the Indians as Indoi
+        which translates as The people of the Indus[22]
+
+        The geographical term Bharat (Bhārat; pronounced,
+        which is recognised by the Constitution of India as an official name for the country,
+        is used by many Indian languages in its variations
+        It is a modernisation of the historical name Bharatavarsha,
+        which traditionally referred to the Indian subcontinent and
+        gained increasing currency from the mid-19th century as a
+        native name for India
+        Hindustan (] (listen)) is a Middle Persian name for India
+        It was introduced into India by the Mughals and widely used since then
+        Its meaning varied, referring to a region that encompassed northern India
+        and Pakistan or India in its entirety[18][24][25] Currently, the name may
+        refer to either the northern part of India or the entire country
+    </string>
+
+    <string name="text_three">
+        Java is a general-purpose programming language
+        that is class-based, object-oriented[16](although not a pure OO language[17]),
+        and designed to have as few implementation dependencies as possible
+        It is intended to let application developers write once, run anywhere
+        (WORA),[18] meaning that compiled Java code can run on all platforms that
+        support Java without the need for recompilation[19] Java applications are
+        typically compiled to bytecode that can run on any Java virtual machine
+        (JVM) regardless of the underlying computer architecture The syntax of Java
+        is similar to C and C++, but it has fewer low-level facilities than either of
+        them As of 2018, Java was one of the most popular programming languages in use
+        according to GitHub,[20] [21] particularly for client-server web applications,
+        with a reported 9 million developers[22]
+        Java was originally developed by James Gosling at Sun Microsystems
+        (which has since been acquired by Oracle) and released in 1995 as a
+        core component of Sun Microsystems Java platform The original and
+        reference implementation Java compilers, virtual machines, and class
+        libraries were originally released by Sun under proprietary licenses
+        As of May 2007, in compliance with the specifications of the Java Community Process,
+        Sun had relicensed most of its Java technologies under the GNU General Public License
+        Meanwhile, others have developed alternative implementations of these Sun technologies,
+        such as the GNU Compiler for Java (bytecode compiler), GNU Classpath (standard libraries),
+        and IcedTea-Web (browser plugin for applets)
+    </string>
+</resources>

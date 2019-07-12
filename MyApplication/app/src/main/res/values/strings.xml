@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sq">Simple Questions</string>
+    <string name="tq">Tough Questions</string>
+    <string name="rate">Rate our app</string>
+    <string name="other">See our other Apps</string>
+</resources>

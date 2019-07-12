@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Books Search App</string>
+    <string name="name_title">Enter some book name, or part of the book
+                            or just some text from the book to find the
+                            full book title and who wrote it
+    </string>
+</resources>

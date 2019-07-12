@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/incButton"
+            android:onClick="onClick"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="Plus One"
+            android:src="@drawable/ic_plus_one"
+            android:background="@drawable/button_background"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/score1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/decButton"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_minus_one"
+            android:background="@drawable/button_background"
+            android:contentDescription="Minus One"
+        />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/title1"
+            android:text="Team 1"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Team 2"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/title2"/>
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/incButton2"
+            android:onClick="onClick"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_plus_one"
+            android:background="@drawable/button_background"
+            android:contentDescription="Plus One"
+        />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/score2"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="0"
+        />
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/decButton2"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_minus_one"
+            android:background="@drawable/button_background"
+            android:contentDescription="Minus One"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/orderText"
+        android:text="This is Your Order"
+        android:textSize="24sp"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/nameText"
+            android:text="Name:"
+            android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/name"
+        android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/addressText"
+            android:text="Address:"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:id="@+id/address"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/phoneText"
+            android:layout_marginRight="20dp"
+            android:text="Phone:"/>
+        <Spinner
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/spinner"/>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:id="@+id/phone"
+            android:imeOptions="flagNoEnterAction"
+            android:inputType="phone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Note:"
+        android:id="@+id/noteText"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:id="@+id/note"
+        android:inputType="phone"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Choose a Delivery Method"
+        android:id="@+id/deleveryText"
+        android:layout_margin="20dp"
+        android:textSize="24sp"/>
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/same"
+        android:onClick="radioClicked"
+        android:text="Same day messenger Service"/>
+
+    <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/next"
+            android:onClick="radioClicked"
+            android:text="Next day"/>
+    <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/pick"
+            android:onClick="radioClicked"
+            android:checked = "true"
+            android:text="Pick up"/>
+    </RadioGroup>
+
+</LinearLayout>

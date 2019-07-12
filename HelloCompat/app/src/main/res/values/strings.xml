@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hello Compat</string>
+
+    <string-array name="text_color">
+        <item>#000</item>
+        <item>#f0f0</item>
+        <item>#8790</item>
+        <item>#f00</item>
+        <item>#ff0</item>
+        <item>#00f</item>
+        <item>#0f0</item>
+        <item>#5f9</item>
+        <item>#f87</item>
+        <item>#87f</item>
+        <item>#ff8</item>
+    </string-array>
+</resources>

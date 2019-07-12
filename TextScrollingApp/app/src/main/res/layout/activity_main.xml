@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/heading"
+            android:text="@string/article_title"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="#FFFFFF"
+            android:padding="@dimen/pad"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"/>
+
+
+    />
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/heading">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/pad"
+                    android:text="@string/sub_title"
+                    android:textStyle="bold"
+                    android:id="@+id/subtitle"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"/>
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="@dimen/pad"
+                android:text="@string/main_article"
+                android:lineSpacingExtra="5sp"
+                android:id="@+id/article"
+                android:autoLink="web"
+        />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/comment"
+                android:text="Add Comment"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
