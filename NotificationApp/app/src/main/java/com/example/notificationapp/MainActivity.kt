@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(applicationContext,MainActivity::class.java)
             val pendingIntent = PendingIntent.getActivity(this,NOTIFICATION_ID,intent,PendingIntent.FLAG_UPDATE_CURRENT)
             val updateIntent = Intent("MY_ACTION")
-            val pendingUpdate = PendingIntent.getBroadcast(this,NOTIFICATION_ID,updateIntent,PendingIntent.FLAG_UPDATE_CURRENT)
+            //val pendingUpdate = PendingIntent.getBroadcast(this,NOTIFICATION_ID,updateIntent,PendingIntent.FLAG_UPDATE_CURRENT)
             val cancelIntent = Intent("CANCEL_UPDATE")
             val pendingCancel  = PendingIntent.getBroadcast(this,NOTIFICATION_ID,cancelIntent,PendingIntent.FLAG_ONE_SHOT)
 
